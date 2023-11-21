@@ -1,12 +1,12 @@
 package com.br.logistics.routeplanner.service
 
-import com.br.logistics.routeplanner.dto.RoutePlannerResponse
+import com.br.logistics.routeplanner.dto.route.response.RouteResponse
 import org.springframework.stereotype.Service
 
 @Service
 class RoutePlannerService {
 
-    fun findBestRoute(): RoutePlannerResponse {
-        return RoutePlannerResponse(message = "Hello World!")
+    fun findBestRoute(): RouteResponse {
+        return RouteResponse(message = "Hello World!")
     }
 }
